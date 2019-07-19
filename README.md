@@ -13,7 +13,7 @@ This library was made for the video tutorial series "How to Make a Processing (J
 * Part 1: https://youtu.be/pI2gvl9sdtE
 * Part 2: https://youtu.be/U0TGZCEWn8g
 
-### API
+## API
 
 ```java
 
