@@ -9,7 +9,7 @@ void setup() {
   size(640, 360);
   background(0);
   noStroke();
-  osnoise = new OpenSimplexNoise(this);
+  osnoise = new OpenSimplexNoise();
 }
 
 void draw() {

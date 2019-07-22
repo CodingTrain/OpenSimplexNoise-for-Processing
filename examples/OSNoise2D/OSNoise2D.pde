@@ -12,7 +12,7 @@ OpenSimplexNoise osnoise;
 
 void setup() {
   size(640, 360);
-  osnoise = new OpenSimplexNoise(this);
+  osnoise = new OpenSimplexNoise();
 }
 
 void draw() {
