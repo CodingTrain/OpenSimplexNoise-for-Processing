@@ -1,4 +1,4 @@
-package algorithms.noise;
+package thecodetrain.algorithms.noise;
 /*
  * OpenSimplex Noise in Java.
  * by Kurt Spencer
@@ -186,7 +186,7 @@ class OpenSimplexNoiseKS {
   }
   
   //3D OpenSimplex Noise.
-  public double eval(double x, double y, double z) {
+  double eval(double x, double y, double z) {
   
     //Place input coordinates on simplectic honeycomb.
     double stretchOffset = (x + y + z) * STRETCH_CONSTANT_3D;
